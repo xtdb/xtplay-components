@@ -3,47 +3,12 @@
   "type": "module",
   "version": "0.0.1",
   "license": "MPL-2.0",
-  "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
-  },
   "exports": {
-    "./components/Head.astro": "./src/components/Head.astro",
-    "./components/mobile-table-of-contents.astro": "./src/components/mobile-table-of-contents.astro",
-    "./components/tabbed-example.astro": "./src/components/tabbed-example.astro",
-    "./components/tabcssfix.astro": "./src/components/tabcssfix.astro",
-    "./components/xtplay.astro": "./src/components/xtplay.astro",
-    "./components/xtplay/checkbox.astro": "./src/components/xtplay/checkbox.astro",
-    "./components/xtplay/date-range.astro": "./src/components/xtplay/date-range.astro",
-    "./components/xtplay/output-table.astro": "./src/components/xtplay/output-table.astro",
-    "./components/xtplay/output-traffic.astro": "./src/components/xtplay/output-traffic.astro",
-    "./components/xtplay/output-vega.astro": "./src/components/xtplay/output-vega.astro",
-    "./components/xtplay/query.astro": "./src/components/xtplay/query.astro",
-    "./components/xtplay/range.astro": "./src/components/xtplay/range.astro",
-    "./components/xtplay/raw-range.astro": "./src/components/xtplay/raw-range.astro",
-    "./components/xtplay/template.astro": "./src/components/xtplay/template.astro",
-    "./components/xtplay/text.astro": "./src/components/xtplay/text.astro",
-    "./components/xtplay/txs.astro": "./src/components/xtplay/txs.astro",
-    "./components/xtplay/date-utils.js": "./src/components/xtplay/date-utils.js",
-    "./components/xtplay/editor": "./src/components/xtplay/editor.ts",
-    "./components/xtplay/table.js": "./src/components/xtplay/table.js",
-    "./components/xtplay/utils.js": "./src/components/xtplay/utils.js",
-    "./components/xtplay/xtplay.js": "./src/components/xtplay/xtplay.js",
-    "./components/table-of-contents/list.astro": "./src/components/table-of-contents/list.astro",
-    "./components/table-of-contents/starlight-toc": "./src/components/table-of-contents/starlight-toc.ts",
-    "./styles/tailwind.css": "./src/styles/tailwind.css",
-    "./styles/railroad-diagrams.css": "./src/styles/railroad-diagrams.css",
-    "./utils": "./src/utils.ts",
-    "./env.d": "./src/env.d.ts"
+    ".": "./index.ts"
   },
   "files": [
-    "src/components",
-    "src/styles",
-    "src/utils.ts",
-    "src/env.d.ts"
+    "src",
+    "index.ts"
   ],
   "devDependencies": {
     "@astrojs/sitemap": "3.1.6",
@@ -60,6 +25,7 @@
     "@rollup/plugin-yaml": "^4.0.1",
     "@swup/astro": "^1.4.1",
     "@tailwindcss/typography": "^0.5.9",
+    "asciidoctor": "^2.2.6",
     "astro": "4.16.18",
     "astro-heroicons": "^2.1.1",
     "codemirror": "^6.0.1",

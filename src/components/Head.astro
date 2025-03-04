@@ -34,7 +34,7 @@ import Default from '@astrojs/starlight/components/Head.astro';
 </script>
 
 <script>
-    import { clearRegistry }  from '@components/xtplay/xtplay'
+    import { clearRegistry }  from './xtplay/xtplay'
     const setup = () => {
         window.swup.hooks.on('page:view', () => {
             document.querySelector("starlight-menu-button").setExpanded(false);
